@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./lib",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"],
+    "types": ["jest"],
+    "typeRoots": ["./src/types", "node_modules/@types"]
+}
