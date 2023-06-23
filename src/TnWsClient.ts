@@ -49,6 +49,8 @@ export class TnWsClient extends WSClient {
     private subscribe(event: string, data: string[], responseEvent: string, callback: (data: Response) => void) {
         this.sendEvent(event, data);
 
+        // TODO storing all current subscriptions and send them when reconnection happened
+
         if (!this.ws) {
             throw new Error('WebSocket is not connected.');
         }

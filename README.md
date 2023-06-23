@@ -54,4 +54,6 @@ The TnWs class provides the following methods:
 
 ## TODO
 
+- storing all current subscriptions and send them when reconnection happened
 - auth by API keys
+
