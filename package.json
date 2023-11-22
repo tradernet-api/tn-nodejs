@@ -2,7 +2,7 @@
   "name": "tnws",
   "version": "1.0.0",
   "description": "Tradernet websocket client for NodeJS",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint './**/*.ts'",
