@@ -1,5 +1,5 @@
 {
-  "name": "tnws",
+  "name": "tn-ws-nodejs",
   "version": "1.0.0",
   "description": "Tradernet websocket client for NodeJS",
   "main": "lib/index.js",
@@ -12,7 +12,8 @@
   "keywords": [
     "tradernet",
     "Freedom Finance",
-    "websocket"
+    "websocket",
+    "nodejs"
   ],
   "author": "",
   "license": "MIT",

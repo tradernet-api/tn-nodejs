@@ -8,7 +8,7 @@ This package provides a set of utility classes to connect and interact with the 
 You can install the package using npm:
 
 ```bash
-npm i tnws
+npm i tn-ws-nodejs
 ```
 
 ## Usage
