@@ -17,7 +17,9 @@ You can use the TnWs class to connect to the WebSocket server and subscribe to v
 Here is a simple usage example:
 
 ```js
-import { TnWs } from 'tnws';
+import { TnWs } from 'tn-ws-nodejs';
+// OR
+const { TnWs } = require('tn-ws-nodejs');
 
 (async () => {
     const client = new TnWs({
